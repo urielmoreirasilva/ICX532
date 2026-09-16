@@ -3,3 +3,9 @@ description: "Repositório para a disciplina ICX532 – Introdução a Ciência 
 baseurl: "/ICX532"
 url: "https://urielmoreirasilva.github.io"
 remote_theme: just-the-docs/just-the-docs
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  math_engine: mathjax
+  syntax_highlighter: rouge
